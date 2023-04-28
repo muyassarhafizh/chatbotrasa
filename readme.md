@@ -37,7 +37,7 @@ Track delivery: To track the delivery of an order, the user can enter a message 
 
 
 Database
-The data are stored in a PostgreSQL database. The database contains several tables (see ERD.png) including orders and deliveries. The orders table stores information about each order, including the order ID, the customer's name, and the order status. The deliveries table stores information about each delivery, including the delivery ID, the order ID, and the delivery status. The chatbot will query the delivery_status column from the delivery tables.
+The data are stored in a PostgreSQL database. The database contains several tables (see Food_Delivery_Database_ERD.png) including orders and deliveries. The orders table stores information about each order, including the order ID, the customer's name, and the order status. The deliveries table stores information about each delivery, including the delivery ID, the order ID, and the delivery status. The chatbot will query the delivery_status column from the delivery tables.
 
 Future Work
 The chatbot can be further improved by adding more features such as:
