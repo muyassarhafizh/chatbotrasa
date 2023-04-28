@@ -1,0 +1,146 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+
+- intent: delivery_status_query
+  examples: |
+    - What is the status of my food delivery?
+    - Can you tell me the delivery status of my order?
+    - Where is my food delivery now?
+    - Can you tell me the status of order number [123456789](order_number)?
+    - What's the status of my food delivery to [123 Main St, Apt 4B](delivery_address)?
+    - Could you give me an update on my order with the order number [123456789](order_number)?
+    - I'd like to know the status of my food delivery to [123 Main St, Apt 4B](delivery_address), please
+    - Can you check the delivery status of my order placed earlier today?
+    - Please tell me the delivery status of my food order with the order number [123456789](order_number)
+    - What's the estimated time of delivery for my order to [123 Main St, Apt 4B](delivery_address)?
+    - When will my order with the order number [123456789](order_number) be delivered?
+    - Can you confirm that my food order has been dispatched to [123 Main St, Apt 4B](delivery_address)?
+    - I'm wondering if my food order with the order number [123456789](order_number) has been delivered yet?
+    - Is there any update on the delivery of my order to [123 Main St, Apt 4B](delivery_address)?
+    - Can you tell me when my food order with the order number [123456789](order_number) will be delivered?
+    - What's the expected delivery time for my order to [123 Main St, Apt 4B](delivery_address)?
+    - Could you update me on the delivery status of my order with the order number [123456789](order_number)?
+    - When will my food order be delivered to [123 Main St, Apt 4B](delivery_address)?
+    - I'm checking on the delivery status of my order with the order number [123456789](order_number)
+    - Has my food order with the order number [123456789](order_number) been shipped yet?
+    - Can you give me a delivery status update on my order to [123 Main St, Apt 4B](delivery_address)?
+    - What's the status of my order with the order number [123456789](order_number)?
+    - When can I expect the delivery of my food order to [123 Main St, Apt 4B](delivery_address)?
+    - Could you check the delivery status of my food order with the order number [123456789](order_number)?
+    - I'd like to know when my order with the order number [123456789](order_number) will arrive
+    - Is there any update on the delivery of my food order to [123 Main St, Apt 4B](delivery_address)?
+    - When is my food order with the order number [123456789](order_number) expected to arrive?
+    - Could you give me an update on the delivery time of my order to [123 Main St, Apt 4B](delivery_address)?
+    - Can you tell me the estimated delivery time for my food order with the order number [123456789](order_number)?
+    - What's the status of my food delivery to [123 Main St, Apt 4B](delivery_address)?
+    - When will my food order with the order number [123456789] (order_number) be shipped?
+    - Could you give me a delivery status update for my food order with the order number [123456789](order_number)?
+    - What's the delivery status of my order to [123 Main St, Apt 4B](delivery_address)?
+    - I'd like to know when I can expect the delivery of my food order with the order number [123456789](order_number)
+    - Can you check the estimated delivery time for my order to [123 Main St, Apt 4B](delivery_address)?
+    - Could you give me an update on the status of my food order with the order number [123456789](order_number)?
+    - What's the expected delivery date for my order to [123 Main St, Apt 4B](delivery_address)?
+
+
+- intent: provide_order_number
+  examples: |
+    - My order number is [123456789](order_number)
+    - The ID for my order is [123456789](order_number)
+    - My order number is [123456789](order_number)
+    - The number for my delivery is [123456789](order_number)
+    - The order number is [123456789](order_number)
+    - The delivery number is [12345678](order_number)
+    - The number for my food delivery is [123456789](order_number)
+    - The order number is [123456789](order_number)
+    - My order number is [123456789](order_number)
+    - The delivery confirmation has my order number [123456789](order_number)
