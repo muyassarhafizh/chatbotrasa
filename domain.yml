@@ -14,6 +14,7 @@ intents:
   - about coin expiry date
   - info - about ismaya live (wtf dwp)
   - info - jobs ismaya group
+  - speaking_to_agent
 
 responses:
   utter_greet:
@@ -33,19 +34,22 @@ responses:
   - text: "Bye"
 
   utter_iamabot:
-  - text: "Saya adalah sebuah bot dari ismaya"
+  - text: "Saya adalah sebuah bot dari Fooma"
 
   utter_please_rephrase:
-  - text: "Maaf, saya tidak mengerti. Bisakah Anda mengulangnya? Ketik 'agen' untuk berbicara dengan agen"
+  - text: "Maaf, saya tidak mengerti. Bolehkah Anda mengulangnya? Ketik 'agen' untuk berbicara dengan agen"
 
   utter_wtf_cp:
-  - text: "Hi, for more information about WTF 2023 please whatsapp us at +62 821 13003057. Thank you"
+  - text: "Hai, untuk informasi lebih lanjut tentang WTF 2023 silahkan whatsapp kami di +6282113003057. Terima kasih."
 
   utter_job_vacancy:
   - text: "Silahkan kirimkan untuk CV dan data lengkap Bapak/Ibu di email kami disini jobs@ismayagroup.com atau bisa follow aku Instagram kami disini @ismylifeatismaya untuk informasi lowongan pekerjaan di ISMAYA Group. Terima kasih"
 
   utter_partnership:
   - text: "Mohon hubungi @template.co.id untuk melakukan kerjasama"
+
+  utter_typeagent:
+  - text: "Ketik 'agen' jika ingin berbicara dengan agen"
 
   
 entities:

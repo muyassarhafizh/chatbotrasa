@@ -31,3 +31,8 @@ rules:
   steps:
   - intent: partnership
   - action: utter_partnership
+
+- rule: Ask the user to type 'agen' if they want to speak with agent
+  steps:
+  - intent: speaking_to_agent
+  - action: utter_typeagent

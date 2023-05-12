@@ -66,10 +66,27 @@ nlu:
     - saya ingin mengajukan kerjasama dengan ismaya group 
     - saya bisa menghubungi siapa, no hp & email untuk partnership
     - Saya dari group ingin melakukan kerjasama dengan ismaya
+    - Bagaimana cara saya bisa mengajukan proposal kerjasama dengan ismaya group?
+    - Bisakah Anda memberikan informasi kontak untuk mengajukan proposal kerjasama dengan ismaya?
+    - Apakah ismaya group membuka peluang kerjasama dengan pihak lain?
+    - Saya ingin mengetahui syarat dan ketentuan kerjasama dengan ismaya group
+    - Apakah ismaya group menerima usulan kerjasama dari startup?
+    - Bagaimana langkah-langkahnya jika ingin menjalin kemitraan dengan ismaya group?
+    - Saya ingin mengetahui lebih lanjut tentang jenis kerjasama yang bisa dilakukan dengan ismaya group
 
 - intent: about coin expiry date
   examples: |
     - ini poin nya ada expired date ya?
+    - Apakah ada tanggal kadaluwarsa untuk poin ini?
+    - Berlaku sampai kapan poin ini?
+    - Poin ini memiliki batas waktu penggunaan yang ditentukan?
+    - Bagaimana dengan masa berlaku poin ini, apakah ada batas waktu tertentu?
+    - Apakah poin ini akan kedaluwarsa setelah beberapa waktu?
+    - Saya ingin tahu apakah poin ini memiliki tanggal kadaluwarsa yang perlu diperhatikan.
+    - Apakah ada periode waktu tertentu di mana poin ini tidak dapat digunakan?
+    - Bagaimana kebijakan mengenai tanggal kadaluwarsa untuk poin ini?
+    - Apakah ada batasan waktu penggunaan untuk poin ini sebelum poin tersebut tidak berlaku lagi?
+    - Saya ingin mengetahui apakah ada tanggal tertentu di mana poin ini akan kadaluarsa.
 
 - intent: info - about ismaya live (wtf dwp)
   examples: |
@@ -77,12 +94,37 @@ nlu:
     - Hey! Are you able to tell me which date the strokes are playing at we the fest?
     - I wanna ask some questions regarding WTF ticket
     - The Strokes hari ke berapa bro di wtf?
-    - Mau tanya tentang wtf doang
+    - Mau tanya tentang wtf dong
+    - Bisa berikan informasi mengenai daftar penampilan untuk We The Fest 2023?
+    - Saya tertarik untuk menghadiri We The Fest. Bisa kasih tahu harga tiketnya?
+    - Apa tanggal dan lokasi We The Fest di Jakarta tahun ini?
+    - Bagaimana cara saya membeli tiket untuk We The Fest 2023?
+    - Apakah We The Fest dapat dihadiri oleh semua usia atau hanya terbatas pada beberapa kelompok usia?
+    - Bisa berikan detail tentang artis yang akan tampil di We The Fest tahun ini?
+    - Saya dengar akan ada penjual makanan di We The Fest. Bisa berikan informasi lebih lanjut mengenai pilihan makanan?
+    - Apakah ada diskon khusus atau promosi yang tersedia untuk tiket We The Fest?
+    - Bisa berikan informasi mengenai jenis-jenis tiket yang tersedia untuk We The Fest?
+    - Apakah ada batasan mengenai barang apa saja yang boleh dibawa ke area festival di We The Fest?
 
 - intent: info - jobs ismaya group
   examples: | 
     - Saya Mau tanya Di Ismaya group apakah ada Lowongan kerja bapak ibu? mohon maaf sebelumnya nya bapak/ibu
     - Ini liat nya dimana yaa pak buk  untuk posisi yg kosong? Saya ada pengalaman di Server ko bu
+    - Apakah Ismaya Group sedang membuka lowongan kerja saat ini? Saya tertarik untuk melamar.
+    - Bagaimana cara saya melihat daftar posisi pekerjaan yang tersedia di Ismaya Group?
+    - Apakah ada kesempatan karier di bidang manajemen acara di Ismaya Group?
+    - Saya memiliki pengalaman sebagai bartender. Apakah ada lowongan pekerjaan di bidang tersebut di Ismaya Group?
+    - Apakah Ismaya Group menerima lamaran kerja dari fresh graduate?
+    - Apa saja persyaratan umum untuk melamar pekerjaan di Ismaya Group?
+    - Bagaimana proses seleksi untuk mendapatkan pekerjaan di Ismaya Group?
+    - Apakah Ismaya Group menyediakan kesempatan pengembangan karier dan pelatihan bagi karyawan?
+    - Di mana saya bisa melihat informasi lebih lanjut tentang lowongan kerja di Ismaya Group?
+    - Apakah Ismaya Group memberikan kesempatan kerja paruh waktu atau magang?
+    - Saya memiliki minat dalam bidang pelayanan pelanggan. Apakah ada posisi yang cocok untuk saya di Ismaya Group?
+    - Bagaimana saya bisa mengirimkan lamaran kerja ke Ismaya Group?
+    - Apakah Ismaya Group memiliki program penghargaan atau tunjangan karyawan?
+    - Saya ingin tahu lebih banyak tentang budaya kerja dan lingkungan perusahaan di Ismaya Group.
+    - Apakah Ismaya Group memiliki cabang di luar Jakarta yang juga membuka lowongan kerja?
 
 - intent: delivery_status_query
   examples: |
@@ -107,3 +149,20 @@ nlu:
     - Nomor pesanan adalah [123456789]
     - Nomor pesanan saya adalah [123456789]
     - Konfirmasi pengiriman memiliki nomor pesanan saya [123456789]
+
+- intent: speaking_to_agent
+  examples: |
+    - Bisa saya berbicara dengan seorang agen?
+    - Saya ingin bicara dengan agen yang bertanggung jawab.
+    - Apakah ada yang bisa membantu saya? Saya ingin berbicara langsung dengan seorang agen.
+    - Bolehkah saya mendapatkan akses untuk berbicara dengan seorang agen?
+    - Saya perlu berbicara dengan seseorang yang bisa memberikan bantuan langsung.
+    - Apakah ada nomor telepon atau alamat email yang dapat saya hubungi untuk berbicara dengan agen?
+    - Saya butuh bantuan langsung. Bagaimana cara saya bisa berbicara dengan agen?
+    - Saya ingin mendapatkan panduan melalui percakapan langsung dengan seorang agen.
+    - Ada masalah yang perlu saya sampaikan. Bisakah saya berbicara dengan agen?
+    - Saya ingin berdiskusi dengan seorang agen untuk mendapatkan solusi yang tepat.
+    - Bolehkah saya mendapatkan bantuan lebih lanjut dengan berbicara langsung kepada seorang agen?
+    - Saya membutuhkan penjelasan lebih lanjut. Bisakah saya berbicara dengan agen yang berwenang?
+    - Apakah ada layanan pelanggan yang bisa saya hubungi untuk berbicara dengan seorang agen?
+    - Tolong arahkan saya ke seseorang yang bisa membantu saya. Saya ingin berbicara dengan agen.
