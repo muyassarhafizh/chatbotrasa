@@ -10,26 +10,42 @@ intents:
   - bot_challenge
   - delivery_status_query
   - provide_order_number
+  - partnership
+  - about coin expiry date
+  - info - about ismaya live (wtf dwp)
+  - info - jobs ismaya group
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hai! Bagaimana kabar anda?"
 
   utter_cheer_up:
-  - text: "Here is something to cheer you up:"
+  - text: "Hi, semoga harimu menyenangkan:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
-  - text: "Did that help you?"
+  - text: "Apakah sudah membantu?"
 
   utter_happy:
-  - text: "Great, carry on!"
+  - text: "Baik, teruskan!"
 
   utter_goodbye:
   - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "Saya adalah sebuah bot dari ismaya"
+
+  utter_please_rephrase:
+  - text: "Maaf, saya tidak mengerti. Bisakah Anda mengulangnya? Ketik 'agen' untuk berbicara dengan agen"
+
+  utter_wtf_cp:
+  - text: "Hi, for more information about WTF 2023 please whatsapp us at +62 821 13003057. Thank you"
+
+  utter_job_vacancy:
+  - text: "Silahkan kirimkan untuk CV dan data lengkap Bapak/Ibu di email kami disini jobs@ismayagroup.com atau bisa follow aku Instagram kami disini @ismylifeatismaya untuk informasi lowongan pekerjaan di ISMAYA Group. Terima kasih"
+
+  utter_partnership:
+  - text: "Mohon hubungi @template.co.id untuk melakukan kerjasama"
 
   
 entities:

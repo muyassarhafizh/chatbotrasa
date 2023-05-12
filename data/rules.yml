@@ -11,3 +11,23 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+
+- rule: Ask the user to rephrase whenever they send a message with low NLU confidence
+  steps:
+  - intent: nlu_fallback
+  - action: utter_please_rephrase
+
+- rule: Ask the user to hit our email for vacancy
+  steps:
+  - intent: info - jobs ismaya group
+  - action: utter_job_vacancy
+
+- rule: Ask the user to contact correct contact person for WTF
+  steps:
+  - intent: info - about ismaya live (wtf dwp)
+  - action: utter_wtf_cp
+
+- rule: Ask the user to reach a template if want to do partnership
+  steps:
+  - intent: partnership
+  - action: utter_partnership

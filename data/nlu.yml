@@ -6,21 +6,16 @@ nlu:
     - hey
     - hello
     - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+    - hello
+    - Pagi
+    - Malam
+    - Siang
+    - Sore Mba/Mas
 
 - intent: goodbye
   examples: |
     - cu
-    - good by
+    - good bye
     - cee you later
     - good night
     - bye
@@ -28,119 +23,87 @@ nlu:
     - have a nice day
     - see you around
     - bye bye
-    - see you later
+    - selamat tinggal
+    - Terima kasih
 
 - intent: affirm
   examples: |
     - yes
     - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+    - iya
+    - Benar
 
 - intent: deny
   examples: |
     - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+    - tidak
+    - tidak pernah
+    - bukan
 
 - intent: mood_great
   examples: |
     - perfect
     - great
     - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+    - yey
 
 - intent: mood_unhappy
   examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+    - saya sedih
+    - yaah
+    - saya terpukul
+    - saya bersedih
 
 - intent: bot_challenge
   examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+    - apakah kamu seorang bot?
+    - apakah kamu manusia
+    - saya sedang berbicara dengan bot?
+    - dengan siapa saya berbicara?
 
+- intent: partnership
+  examples: |
+    - saya ingin mengajukan kerjasama dengan ismaya group 
+    - saya bisa menghubungi siapa, no hp & email untuk partnership
+    - Saya dari group ingin melakukan kerjasama dengan ismaya
+
+- intent: about coin expiry date
+  examples: |
+    - ini poin nya ada expired date ya?
+
+- intent: info - about ismaya live (wtf dwp)
+  examples: |
+    - Can I ask about tickets for We The Fest 2023 in  Jakarta ?
+    - Hey! Are you able to tell me which date the strokes are playing at we the fest?
+    - I wanna ask some questions regarding WTF ticket
+    - The Strokes hari ke berapa bro di wtf?
+    - Mau tanya tentang wtf doang
+
+- intent: info - jobs ismaya group
+  examples: | 
+    - Saya Mau tanya Di Ismaya group apakah ada Lowongan kerja bapak ibu? mohon maaf sebelumnya nya bapak/ibu
+    - Ini liat nya dimana yaa pak buk  untuk posisi yg kosong? Saya ada pengalaman di Server ko bu
 
 - intent: delivery_status_query
   examples: |
-    - What is the status of my food delivery?
-    - Can you tell me the delivery status of my order?
-    - Where is my food delivery now?
-    - Can you tell me the status of order number [123456789](order_number)?
-    - What's the status of my food delivery to [123 Main St, Apt 4B](delivery_address)?
-    - Could you give me an update on my order with the order number [123456789](order_number)?
-    - I'd like to know the status of my food delivery to [123 Main St, Apt 4B](delivery_address), please
-    - Can you check the delivery status of my order placed earlier today?
-    - Please tell me the delivery status of my food order with the order number [123456789](order_number)
-    - What's the estimated time of delivery for my order to [123 Main St, Apt 4B](delivery_address)?
-    - When will my order with the order number [123456789](order_number) be delivered?
-    - Can you confirm that my food order has been dispatched to [123 Main St, Apt 4B](delivery_address)?
-    - I'm wondering if my food order with the order number [123456789](order_number) has been delivered yet?
-    - Is there any update on the delivery of my order to [123 Main St, Apt 4B](delivery_address)?
-    - Can you tell me when my food order with the order number [123456789](order_number) will be delivered?
-    - What's the expected delivery time for my order to [123 Main St, Apt 4B](delivery_address)?
-    - Could you update me on the delivery status of my order with the order number [123456789](order_number)?
-    - When will my food order be delivered to [123 Main St, Apt 4B](delivery_address)?
-    - I'm checking on the delivery status of my order with the order number [123456789](order_number)
-    - Has my food order with the order number [123456789](order_number) been shipped yet?
-    - Can you give me a delivery status update on my order to [123 Main St, Apt 4B](delivery_address)?
-    - What's the status of my order with the order number [123456789](order_number)?
-    - When can I expect the delivery of my food order to [123 Main St, Apt 4B](delivery_address)?
-    - Could you check the delivery status of my food order with the order number [123456789](order_number)?
-    - I'd like to know when my order with the order number [123456789](order_number) will arrive
-    - Is there any update on the delivery of my food order to [123 Main St, Apt 4B](delivery_address)?
-    - When is my food order with the order number [123456789](order_number) expected to arrive?
-    - Could you give me an update on the delivery time of my order to [123 Main St, Apt 4B](delivery_address)?
-    - Can you tell me the estimated delivery time for my food order with the order number [123456789](order_number)?
-    - What's the status of my food delivery to [123 Main St, Apt 4B](delivery_address)?
-    - When will my food order with the order number [123456789] (order_number) be shipped?
-    - Could you give me a delivery status update for my food order with the order number [123456789](order_number)?
-    - What's the delivery status of my order to [123 Main St, Apt 4B](delivery_address)?
-    - I'd like to know when I can expect the delivery of my food order with the order number [123456789](order_number)
-    - Can you check the estimated delivery time for my order to [123 Main St, Apt 4B](delivery_address)?
-    - Could you give me an update on the status of my food order with the order number [123456789](order_number)?
-    - What's the expected delivery date for my order to [123 Main St, Apt 4B](delivery_address)?
-
+    - Apa status pengiriman makanan saya?
+    - Bisakah Anda memberi tahu saya status pengiriman pesanan saya?
+    - Di mana pengiriman makanan saya sekarang?
+    - Bisakah Anda memberi tahu saya status pesanan nomor [123456789](order_number)?
+    - Bagaimana status pengiriman makanan saya ke [123 Main St, Apt 4B](delivery_address)?
+    - Bisakah Anda memberi saya pembaruan tentang pesanan saya dengan nomor pesanan [123456789](order_number)?
+    - Saya ingin tahu status pengiriman makanan saya ke [123 Main St, Apt 4B](delivery_address), please
+    
 
 - intent: provide_order_number
   examples: |
-    - My order number is [123456789](order_number)
-    - The ID for my order is [123456789](order_number)
-    - My order number is [123456789](order_number)
-    - The number for my delivery is [123456789](order_number)
-    - The order number is [123456789](order_number)
-    - The delivery number is [12345678](order_number)
-    - The number for my food delivery is [123456789](order_number)
-    - The order number is [123456789](order_number)
-    - My order number is [123456789](order_number)
-    - The delivery confirmation has my order number [123456789](order_number)
+    - Nomor pesanan saya adalah [123456789]
+    - ID untuk pesanan saya adalah [123456789]
+    - Nomor pesanan saya adalah [123456789]
+    - Nomor untuk pengiriman saya adalah [123456789]
+    - Nomor pesanan adalah [123456789]
+    - Nomor pengiriman adalah [12345678]
+    - Nomor untuk pengiriman makanan saya adalah [123456789]
+    - Nomor pesanan adalah [123456789]
+    - Nomor pesanan saya adalah [123456789]
+    - Konfirmasi pengiriman memiliki nomor pesanan saya [123456789]

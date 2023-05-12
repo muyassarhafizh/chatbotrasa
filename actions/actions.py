@@ -46,6 +46,7 @@ class DeliveryStatusQueryResponse(Action):
                     data_retrieved_list =[]
 
                 db_retrieved = {}
+                ##Fix datetime type of data
                 for info in data_retrieved_list:
                     if isinstance(info[1], datetime.datetime):
                         value=info[1].strftime('%Y-%m-%d %H:%M:%S')
