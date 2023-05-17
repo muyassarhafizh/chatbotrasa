@@ -10,7 +10,7 @@ class HitRasa(Resource):
     def post(self):
         json_data = request.get_json()
         message = json_data.get('message')
-        response = requests.post('https://5a84-103-125-37-137.ngrok-free.app/webhooks/rest/webhook', json={"message":message})
+        response = requests.post('http://localhost:5005/webhooks/rest/webhook', json={"message":message})
         response_final =response.json()[0]['text']
         return {"bot": response_final}
 
