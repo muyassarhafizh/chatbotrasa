@@ -1,0 +1,15 @@
+version: "3"
+services:
+  rasa-app:
+    container_name: rasa-app
+    build: ./rasa-app
+    restart: always
+    ports:
+      - "5005:5005"
+
+  flask-api:
+    container_name: flask-api
+    build: ./API
+    restart: always
+    ports:
+      - "8069:8069"
