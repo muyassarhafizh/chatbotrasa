@@ -6,10 +6,25 @@ services:
     restart: always
     ports:
       - "5005:5005"
-
+    
+  rasa-custom-actions:
+    container_name: rasa-custom-actions
+    build: ./actions
+    restart: always
+    ports:
+      - "5055:5055"
+      
   flask-api:
     container_name: flask-api
     build: ./API
     restart: always
     ports:
       - "8069:8069"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+        compress: "true"
+    volumes:
+      - /home/hafizh_yassar13/chatbotrasa/API/logAPI/app.log:/app/logAPI/app.log
