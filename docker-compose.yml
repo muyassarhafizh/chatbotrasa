@@ -28,3 +28,4 @@ services:
         compress: "true"
     volumes:
       - /home/hafizh_yassar13/chatbotrasa/API/logAPI/app.log:/app/logAPI/app.log
+      - /home/hafizh_yassar13/chatbotrasa/API/data/output.csv:/app/data/output.csv

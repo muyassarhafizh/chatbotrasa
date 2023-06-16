@@ -1,0 +1,4 @@
+id,phone_number,cust_message,ai_response,is_fallback,intent,current_threshold
+11755e9b-057c-46f8-870b-60a00f19b363,muhammad.raihan+1@legit-group.com,siapa kamu?,"Saya ChatFooma, sebuah chatbot dari Fooma yang akan membantu anda menyelesaikan persoalan terkait aplikasi Fooma",0,bot_challenge,0.98
+6c691a96-12f9-4c87-a6d3-58812aa93d63,muhammad.raihan+1@legit-group.com,saya ingin tau status pesanan saya?,"Maaf saya tidak memiliki informasi terkait hal ini. Apakah ada pertanyaan atau keluhan lain? Jika anda ingin berbicara langsung dengan agen, ketik 'agen'",1,nlu_fallback,0.98
+03880f55-5bfd-4551-9366-6273e52c2b7d,6282128627182,Siapa kamu?,"Saya ChatFooma, sebuah chatbot dari Fooma yang akan membantu anda menyelesaikan persoalan terkait aplikasi Fooma",0,bot_challenge,0.98
